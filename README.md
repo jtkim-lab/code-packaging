@@ -32,6 +32,8 @@ where $\mathbf{X} \in \mathbb{R}^{n \times d}$ and $\mathbf{y} \in \mathbb{R}^n$
 
 ## Code Refactoring
 
+An example is located in `src/linear_regression_bad_style.py`.
+
 1. Rename variables.
 2. Make code simple.
 3. Add assertions.
