@@ -7,11 +7,10 @@ import numpy as np
 
 
 def theta(X, by):
-    a = np.matmul(np.transpose(X), X)
+    a=np.matmul(np.transpose(X), X)
     b = np.linalg.inv(a)
-    c = np.matmul(b, np.transpose(X))
-    d = np.matmul(c, by)
-
+    c=np.matmul(b,np.transpose(X))
+    d = np.matmul(c,by)
     return d
 
 def pred(theta, X):
