@@ -21,12 +21,12 @@ $ pip install -r requirements.txt
 
 A simple linear model can be defined as follows:
 
-$$y = \theta^\top \mathbf{x}.$$
+$$y = {\boldsymbol \theta}^\top \mathbf{x}.$$
 
 Given $n$ data points and their corresponding noisy evaluations,
-you can calculate $\theta$ solving least squares:
+you can calculate a closed-form solution of ${\boldsymbol \theta}$ solving least squares:
 
-$$\theta = (\mathbf{X}^\top \mathbf{X})^{-1} \mathbf{X}^\top \mathbf{y},$$
+$${\boldsymbol \theta} = (\mathbf{X}^\top \mathbf{X})^{-1} \mathbf{X}^\top \mathbf{y},$$
 
 where $\mathbf{X} \in \mathbb{R}^{n \times d}$ and $\mathbf{y} \in \mathbb{R}^n$.
 
