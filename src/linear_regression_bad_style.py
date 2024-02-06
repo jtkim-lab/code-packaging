@@ -1,8 +1,3 @@
-"""
-    theta = (X^T X)^{-1} X^T by
-    y = theta^T bx
-"""
-
 import numpy as np
 
 
