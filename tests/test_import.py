@@ -1,3 +1,7 @@
+import sys
+sys.path.insert(0, 'src/')
+
+
 def test_import_numpy():
     import numpy
 
