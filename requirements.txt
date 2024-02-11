@@ -2,3 +2,4 @@ numpy
 pytest
 pylint
 black
+sphinx

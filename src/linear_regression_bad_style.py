@@ -1,7 +1,24 @@
+"""
+linear_regression_bad_style
+
+"""
 import numpy as np
 
 
 def theta(X, by):
+    """
+    SOMETHING
+
+    :param X: SOMETHING
+    :type X: SOMETHING
+    :param by: SOMETHING
+    :type by: SOMETHING
+
+    :returns: SOMETHING
+    :rtype: SOMETHING
+
+    """
+
     a=np.matmul(np.transpose(X), X)
     b = np.linalg.inv(a)
     c=np.matmul(b,np.transpose(X))
@@ -9,6 +26,19 @@ def theta(X, by):
     return d
 
 def pred(theta, X):
+    """
+    SOMETHING
+
+    :param X: SOMETHING
+    :type X: SOMETHING
+    :param by: SOMETHING
+    :type by: SOMETHING
+
+    :returns: SOMETHING
+    :rtype: SOMETHING
+
+    """
+
     a = np.matmul(X, theta)
 
     return a
