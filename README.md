@@ -40,3 +40,7 @@ An example is located in `src/linear_regression_bad_style.py`.
 4. Run `pylint`.
 5. Run `black`.
 6. Add unit tests.
+
+## Documentation
+
+Run `sphinx-build -M html . .` in the `docs` directory.

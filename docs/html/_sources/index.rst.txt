@@ -6,6 +6,9 @@
 Welcome to code-packaging's documentation!
 ==========================================
 
+SOMETHING
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
