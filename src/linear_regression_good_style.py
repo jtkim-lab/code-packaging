@@ -2,6 +2,7 @@
 This is to implement linear regression.
 
 """
+
 import numpy as np
 
 
@@ -22,6 +23,7 @@ def calculate_theta(X, by):
     X_T_X = np.matmul(np.transpose(X), X)
     return np.matmul(np.matmul(np.linalg.inv(X_T_X), np.transpose(X)), by)
 
+
 def predict(theta, X):
     """
     This function is to predict the output of input matrix given a parameter vector.
@@ -39,7 +41,8 @@ def predict(theta, X):
     return np.matmul(X, theta)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
+
     def target(X):
         return np.sum(10.0 * X, axis=1)
 
@@ -53,4 +56,4 @@ if __name__ == '__main__':
     outputs_test = predict(theta, X_test)
 
     print(theta)
-    print(np.sum((outputs_test - by_test)**2))
+    print(np.sum((outputs_test - by_test) ** 2))
